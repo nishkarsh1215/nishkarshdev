@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nishkarshdev/static/css/main.b969f323.css",
-    "main.js": "/nishkarshdev/static/js/main.49e94628.js",
+    "main.js": "/nishkarshdev/static/js/main.29934e29.js",
     "static/media/design.mp4": "/nishkarshdev/static/media/design.336252f57bff88f50004.mp4",
     "static/media/Starship.png": "/nishkarshdev/static/media/Starship.3f3825b7b816c7bfddeb.png",
     "static/media/Star2.png": "/nishkarshdev/static/media/Star2.009371cc537516aae270.png",
@@ -48,6 +48,6 @@
   },
   "entrypoints": [
     "static/css/main.b969f323.css",
-    "static/js/main.49e94628.js"
+    "static/js/main.29934e29.js"
   ]
 }
