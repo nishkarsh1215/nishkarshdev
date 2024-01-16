@@ -59,7 +59,7 @@ export default function Examples() {
                 style={{ marginBottom: '20px' }}
               />
             </Link>
-            <h2>Ocean Squad - Parody Studios</h2>
+            <h2>Ocean Squad</h2>
             <Button
               className="btn-simple btn-round"
               color="primary"
