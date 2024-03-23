@@ -15,18 +15,18 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
+import React from 'react'
 // reactstrap components
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col } from 'reactstrap'
 
 export default function Typography() {
   return (
     <div className="section section-typo">
-      <img alt="..." className="path" src={require("assets/img/path1.png")} />
+      <img alt="..." className="path" src={require('assets/img/path1.png')} />
       <img
         alt="..."
         className="path path1"
-        src={require("assets/img/path3.png")}
+        src={require('assets/img/path3.png')}
       />
       <Container>
         <h3 className="title">Typography</h3>
@@ -36,37 +36,37 @@ export default function Typography() {
               <div className="typography-line">
                 <h1>
                   <span>Header 1</span>
-                  The Life of BLK• Design System React
+                  NishKarsh
                 </h1>
               </div>
               <div className="typography-line">
                 <h2>
                   <span>Header 2</span>
-                  The Life of BLK• Design System React
+                  NishKarsh
                 </h2>
               </div>
               <div className="typography-line">
                 <h3>
                   <span>Header 3</span>
-                  The Life of BLK• Design System React
+                  NishKarsh
                 </h3>
               </div>
               <div className="typography-line">
                 <h4>
                   <span>Header 4</span>
-                  The Life of BLK• Design System React
+                  NishKarsh
                 </h4>
               </div>
               <div className="typography-line">
                 <h5>
                   <span>Header 5</span>
-                  The Life of BLK• Design System React
+                  NishKarsh
                 </h5>
               </div>
               <div className="typography-line">
                 <h6>
                   <span>Header 6</span>
-                  The Life of BLK• Design System React
+                  NishKarsh
                 </h6>
               </div>
               <div className="typography-line">
@@ -155,8 +155,8 @@ export default function Typography() {
               <img
                 alt="..."
                 className="img-fluid rounded shadow"
-                src={require("assets/img/ryan.jpg")}
-                style={{ width: "150px" }}
+                src={require('assets/img/ryan.jpg')}
+                style={{ width: '150px' }}
               />
             </Col>
             <Col sm="3" xs="6">
@@ -166,8 +166,8 @@ export default function Typography() {
               <img
                 alt="..."
                 className="img-fluid rounded-circle shadow"
-                src={require("assets/img/james.jpg")}
-                style={{ width: "150px" }}
+                src={require('assets/img/james.jpg')}
+                style={{ width: '150px' }}
               />
             </Col>
             <Col className="mt-5 mt-sm-0" sm="3" xs="6">
@@ -177,8 +177,8 @@ export default function Typography() {
               <img
                 alt="..."
                 className="img-fluid rounded shadow-lg"
-                src={require("assets/img/lora.jpg")}
-                style={{ width: "150px" }}
+                src={require('assets/img/lora.jpg')}
+                style={{ width: '150px' }}
               />
             </Col>
             <Col className="mt-5 mt-sm-0" sm="3" xs="6">
@@ -188,13 +188,13 @@ export default function Typography() {
               <img
                 alt="..."
                 className="img-fluid rounded-circle shadow-lg"
-                src={require("assets/img/mike.jpg")}
-                style={{ width: "150px" }}
+                src={require('assets/img/mike.jpg')}
+                style={{ width: '150px' }}
               />
             </Col>
           </Row>
         </div>
       </Container>
     </div>
-  );
+  )
 }

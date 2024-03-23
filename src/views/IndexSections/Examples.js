@@ -31,6 +31,66 @@ export default function Examples() {
       <Container className="text-center">
         <Row>
           <Col sm="6">
+            <Link to="/counter">
+              <img
+                alt="..."
+                className="img-raised"
+                src={require('assets/img/counter5.png')}
+                style={{ marginBottom: '20px' }}
+              />
+            </Link>
+            <h2>Online Multiplayer Counter Strike</h2>
+            <Button
+              className="btn-simple btn-round"
+              color="primary"
+              to="/counter"
+              tag={Link}
+              style={{ marginBottom: '30px' }}
+            >
+              View
+            </Button>
+          </Col>
+          <Col sm="6">
+            <Link to="/server">
+              <img
+                alt="..."
+                className="img-raised"
+                src={require('assets/img/server1.png')}
+                style={{ marginBottom: '20px' }}
+              />
+            </Link>
+            <h2>Online Server Multiplayer</h2>
+            <Button
+              className="btn-simple btn-round"
+              color="primary"
+              to="/server"
+              tag={Link}
+              style={{ marginBottom: '30px' }}
+            >
+              View
+            </Button>
+          </Col>
+          <Col sm="6">
+            <Link to="/machine">
+              <img
+                alt="..."
+                className="img-raised"
+                src={require('assets/img/machine1.png')}
+                style={{ marginBottom: '20px' }}
+              />
+            </Link>
+            <h2>Sphere Balancing with Machine Learning</h2>
+            <Button
+              className="btn-simple btn-round"
+              color="primary"
+              to="/machine"
+              tag={Link}
+              style={{ marginBottom: '30px' }}
+            >
+              View
+            </Button>
+          </Col>
+          <Col sm="6">
             <Link to="/eyevib">
               <img
                 alt="..."

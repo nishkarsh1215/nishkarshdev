@@ -1,24 +1,8 @@
-/*!
-
-=========================================================
-* BLK Design System React - v1.2.2
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/blk-design-system-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/blk-design-system-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from 'react'
 
 // reactstrap components
 import { Container } from 'reactstrap'
+import './App.css'
 
 export default function PageHeader() {
   return (
@@ -32,11 +16,12 @@ export default function PageHeader() {
       <div className="squares square7" />
       <Container>
         <div className="content-center brand">
-          <h1>NishKarsh• Developer</h1>
+          <h1 className="gradient-text">NishKarsh• Developer</h1>
           <h3 className="d-none d-sm-block">
             I Create Unforgettable Games, Build Dynamic Websites, and Engineer
             Seamless Software Experiences!
           </h3>
+          <button className="large-button">Film Reel</button>
         </div>
       </Container>
       <h2> I ended</h2>
