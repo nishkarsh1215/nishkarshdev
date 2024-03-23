@@ -21,7 +21,13 @@ export default function PageHeader() {
             I Create Unforgettable Games, Build Dynamic Websites, and Engineer
             Seamless Software Experiences!
           </h3>
-          <button className="large-button">Film Reel</button>
+          <a
+            href="https://youtu.be/_nNhngrxRHE?si=_dxPSOuU_gHlxALn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button className="large-button">Film Reel</button>
+          </a>
         </div>
       </Container>
       <h2> I ended</h2>
