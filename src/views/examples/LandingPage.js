@@ -50,6 +50,7 @@ export default function LandingPage() {
   return (
     <>
       <ExamplesNavbar />
+      <h1></h1>
       <div className="wrapper">
         <div className="page-header">
           <div className="content-center"></div>
